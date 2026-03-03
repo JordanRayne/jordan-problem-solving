@@ -1,18 +1,21 @@
-# age=int(input("Please enter your age"))
-# #
-# # if age<=0:
-# #     print("wow, people start using computer early")
-#
-#
-# if age==19:
-#     print("Hey! We are the same age!")
+
+def task_1():
+    age=int(input("Please enter your age"))
+
+    if age<=0:
+        print("wow, people start using computer early")
 
 
-# month=int(input("what is the month"))
-# day=int(input("what day is it"))
-#
-# if day == 1 and month == 4:
-#     print("Its april fools day")
+    if age==19:
+        print("Hey! We are the same age!")
+
+
+def task_2():
+    month=int(input("what is the month"))
+    day=int(input("what day is it"))
+
+    if day == 1 and month == 4:
+        print("Its april fools day")
 
 
 # if age>=18:
@@ -20,15 +23,20 @@
 #
 # else:
 #     print("you are to young")
+def task_3():
+    speed=int(input("what is the speed"))
+    speedlimit=int(input("what is the limit"))
 
-speed=int(input("what is the speed"))
-speedlimit=int(input("what is the limit"))
+
+    if  speed > speedlimit+10:
+        print("speed and ticket and possible court summons")
+    elif speed>speedlimit:
+        print("you are going to fast")
+
+    else:
+        print("you are driving the correct speed")
 
 
-if  speed > speedlimit+10:
-    print("speed and ticket and possible court summons")
-elif speed>speedlimit:
-    print("you are going to fast")
-
-else:
-    print("you are driving the correct speed")
+# task_1()
+# task_2()
+task_3()
