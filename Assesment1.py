@@ -9,4 +9,4 @@ def assessment_1():
         int(input("Your fare is £10"))
 
     elif distance < 31:
-        int(input("your fare is £15"))
+        int(input("your fare is £15")
