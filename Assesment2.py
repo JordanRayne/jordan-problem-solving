@@ -1,8 +1,9 @@
-for j in range (1,2):
-    for i in range (0,j):
-        print("-")
 
-# for j in range (1,21):
-#     for i in range (0,j):
-#         print("-")
+number = int(input("pick a number between 1and 20"))
+for i in range(1, 21):
 
+    if number == i:
+        print("x", end="")
+
+    else:
+        print("-", end="")

@@ -1,12 +1,18 @@
-def assessment_1():
-    distance = int(input("how many miles to your house"))
+
+order_value = 50.00
+distance = float(input("Please enter the delivery distance in miles: "))
 
 
-    if distance < 10:
-        int(input(f"Your fare is free"))
+if distance <= 10:
+    delivery_fee = 0
+elif distance <= 20:
+    delivery_fee = 10
+elif distance <= 30:
+    delivery_fee = 15
+else:
+    delivery_fee = 20
 
-    elif distance < 21:
-        int(input("Your fare is £10"))
 
-    elif distance < 31:
-        int(input("your fare is £15")
+print(f"\nOrder Value: £{order_value:.2f}")
+print(f"Distance: {distance} miles")
+print(f"Delivery Fee: £{delivery_fee:.2f}")
